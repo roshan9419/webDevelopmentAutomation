@@ -1,8 +1,6 @@
 #!/usr/bin/env python3
 
 import os
-import sys
-import subprocess
 
 project_name = input("Name of Project: ")
 
