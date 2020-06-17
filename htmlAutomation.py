@@ -6,6 +6,7 @@ project_name = input("Name of Project: ")
 
 if os.path.isdir(project_name):
     print('Project Already Exists')
+    quit(0)
 else:
     os.mkdir(project_name)
     print('Successfully Created Empty Project')
